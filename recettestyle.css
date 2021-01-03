@@ -77,14 +77,13 @@ table.info td {
 }
 div.colonne1{
     display: inline-block;
-    margin-right: 10%;
+    /*margin-right: 10%;*/
 }
-div.colonne2{
-    float: right;
-   
-}
+/*div.colonne2{
+    float: right; 
+}*/
 div.colonne{
-    width: 45%;
+    width: 100%;
     margin-top: 20px;
 }
 div.colonne h2{
@@ -143,5 +142,13 @@ table.preparation td.prepa_etape{
     table.info td {
         font-size: 14px;
     }
-
+    div.colonne1{
+        margin-right: 10%;
+    }
+    div.colonne2{
+        float: right;
+    }
+    div.colonne{
+        width: 45%;
+    }
 }
